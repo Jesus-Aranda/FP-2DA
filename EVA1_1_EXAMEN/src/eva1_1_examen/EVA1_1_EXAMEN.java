@@ -16,7 +16,7 @@ public class EVA1_1_EXAMEN {
         time_ca = Integer.parseInt(input.nextLine().trim());
         
         resu = time_na + time_ca + time_ci;
-        if(time_na > 0 && time_ci > 0 && time_ca > 0){
+        if(time_na >= 0 && time_ci >= 0 && time_ca >= 0){
             if(resu < 120 && time_na < 60 && time_ci < 60 && time_ca < 60 ){
                 System.out.println("Calificacion:\nExcelente");
             }else if(resu < 150 || time_na < 70 && time_ci < 70 && time_ca < 70 ){
