@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA2_9_FOR"/>
+        <attribute name="authors" value="yesic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-03 05:48:08 p. m."/>
+        <attribute name="created" value="eWVzaWM7TEFQVE9QLUc5RkxGMTdHOzIwMjUtMTAtMDM7MDU6NDI6MzAgcC4gbS47MzAyOA=="/>
+        <attribute name="edited" value="eWVzaWM7TEFQVE9QLUc5RkxGMTdHOzIwMjUtMTAtMDM7MDU6NDg6MDggcC4gbS47MTszMTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Hola mundo&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
