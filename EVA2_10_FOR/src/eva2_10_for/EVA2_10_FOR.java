@@ -22,6 +22,7 @@ public class EVA2_10_FOR {
         System.out.println();
         //Solicitar dos numeros al usuario, imprimir la lista entre esos numeros
         // -3 y 3 ---> -3 -2 -1 0 1 2 3
+        //Imprimir alreves tambien
         int num1,num2;
         System.out.println("Escribe un el primer numero:");
         num1 = Integer.parseInt(input.nextLine().trim());
@@ -33,9 +34,9 @@ public class EVA2_10_FOR {
             for (int i = num2; i >= num1; i--){System.out.print(i + " ");}
             System.out.println();
         }else if(num1 > num2){
-            for(int i = num2; i <= num1; i++){System.out.print(i + " ");}
-            System.out.println();
             for(int i = num1; i >= num2; i--){System.out.print(i + " ");}
+            System.out.println();
+            for(int i = num2; i <= num1; i++){System.out.print(i + " ");}
             System.out.println();
         }else{System.out.println("Los numeros son iguales, no existe un cadena numerica");}
     }
